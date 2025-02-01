@@ -103,24 +103,23 @@
             Console.WriteLine(rawMessage);
 
             // get input from console
-            Console.WriteLine("Enter your name: ");
+            Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.WriteLine(name);
 
             // Basic While loop
             //execute the 2 numbers and sum until user in done
 
+
             string choice = "y";
-            while (choice == "y")
-            {                   /// == is a boolean condition
+            while (choice == "y") {
                 Console.WriteLine("Enter two whole numbers: ");
-                int n1 = Convert.ToInt32(Console.ReadLine());  //method chaining. similar to a subquery
+                int n1 = Convert.ToInt32(Console.ReadLine());
                 int n2 = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(" sum = " + (n1 + n2));
-                Console.WriteLine("Conti fnue? (y/n): ");
+                Console.WriteLine("Continue? (y/n): ");
                 choice = Console.ReadLine();
             }
-
             // if statement
             // discount % 
             // if amount > 1000, discPct = .10

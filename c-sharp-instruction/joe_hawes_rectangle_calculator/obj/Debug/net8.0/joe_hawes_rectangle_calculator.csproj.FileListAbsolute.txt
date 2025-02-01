@@ -1,0 +1,15 @@
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.AssemblyInfoInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.AssemblyInfo.cs
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.csproj.CoreCompileInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.sourcelink.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\bin\Debug\net8.0\joe_hawes_rectangle_calculator.exe
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\bin\Debug\net8.0\joe_hawes_rectangle_calculator.deps.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\bin\Debug\net8.0\joe_hawes_rectangle_calculator.runtimeconfig.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\bin\Debug\net8.0\joe_hawes_rectangle_calculator.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\bin\Debug\net8.0\joe_hawes_rectangle_calculator.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\refint\joe_hawes_rectangle_calculator.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\joe_hawes_rectangle_calculator.genruntimeconfig.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_rectangle_calculator\obj\Debug\net8.0\ref\joe_hawes_rectangle_calculator.dll

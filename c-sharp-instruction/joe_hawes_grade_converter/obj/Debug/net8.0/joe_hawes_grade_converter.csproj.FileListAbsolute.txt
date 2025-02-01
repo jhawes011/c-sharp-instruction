@@ -1,0 +1,15 @@
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\bin\Debug\net8.0\joe_hawes_grade_converter.exe
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\bin\Debug\net8.0\joe_hawes_grade_converter.deps.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\bin\Debug\net8.0\joe_hawes_grade_converter.runtimeconfig.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\bin\Debug\net8.0\joe_hawes_grade_converter.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\bin\Debug\net8.0\joe_hawes_grade_converter.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.AssemblyInfoInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.AssemblyInfo.cs
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.csproj.CoreCompileInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.sourcelink.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\refint\joe_hawes_grade_converter.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\joe_hawes_grade_converter.genruntimeconfig.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_grade_converter\obj\Debug\net8.0\ref\joe_hawes_grade_converter.dll
