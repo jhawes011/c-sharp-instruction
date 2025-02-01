@@ -11,6 +11,20 @@
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+      "DocumentGroups": []
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d83a74ef-d739-42c6-bf3e-1dbd13e23fc8",
+        "Display": 3,
+        "X": 68,
+        "Y": 246,
+        "Width": 1907,
+        "Height": 792,
+        "WindowState": 0
+      },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -24,7 +38,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\repos\\c-sharp-repos\\c-sharp-instruction\\Ch04DemoNumbersStrings\\Program.cs*",
               "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T16:50:02.55Z",
               "EditorCaption": ""

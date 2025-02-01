@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ch04DemoNumbersStrings")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3405a8ecfbb3c58d706723366a9669b4b2c890cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b851e13ee0c1c5bc0b71d1e271a1fa81d801153a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ch04DemoNumbersStrings")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ch04DemoNumbersStrings")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
