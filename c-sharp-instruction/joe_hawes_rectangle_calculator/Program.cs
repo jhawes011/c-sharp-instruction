@@ -20,6 +20,7 @@ namespace joe_hawes_rectangle_calculator
                 Console.WriteLine("Area: ".PadRight(15) + length * width);
                 Console.WriteLine("Perimeter: ".PadRight(15) + ((length * 2) + (width * 2)));
 
+                // could also used alias for math formulas:          double area = length * width; double perimeter = (length * 2) + (width * 2);
 
 
                 Console.WriteLine();

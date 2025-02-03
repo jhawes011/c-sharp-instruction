@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("joe_hawes_grade_converter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2494870d7145cd0b66c538af10cebd74f44ad0ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c14597af38038802dec76edb4c57aaac07e702")]
 [assembly: System.Reflection.AssemblyProductAttribute("joe_hawes_grade_converter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("joe_hawes_grade_converter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

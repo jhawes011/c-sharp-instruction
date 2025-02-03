@@ -8,7 +8,7 @@
             
 
             string choice = "y";
-            while (choice == "y")
+            while (choice == "y" || choice == "Y")     // could also convert Y to y to make it case insensitive using .ToLower() or .ToUpper()
             {
                 Console.WriteLine();
                 Console.Write("Enter numerical grade: ");
@@ -32,8 +32,8 @@
                 Console.WriteLine();   
 
             
-            Console.Write("Continue? (y/n): ");
-            choice = Console.ReadLine();
+            Console.Write("Continue? (y/n): ");    // could also use || to check for "Y" as well    
+                choice = Console.ReadLine();
             }
             
             

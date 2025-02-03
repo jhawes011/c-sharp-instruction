@@ -1,0 +1,15 @@
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\bin\Debug\net8.0\Ch5Demos.exe
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\bin\Debug\net8.0\Ch5Demos.deps.json
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\bin\Debug\net8.0\Ch5Demos.runtimeconfig.json
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\bin\Debug\net8.0\Ch5Demos.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\bin\Debug\net8.0\Ch5Demos.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.AssemblyInfoInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.AssemblyInfo.cs
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.csproj.CoreCompileInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.sourcelink.json
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\refint\Ch5Demos.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\Ch5Demos.genruntimeconfig.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\Ch5Demos\obj\Debug\net8.0\ref\Ch5Demos.dll
