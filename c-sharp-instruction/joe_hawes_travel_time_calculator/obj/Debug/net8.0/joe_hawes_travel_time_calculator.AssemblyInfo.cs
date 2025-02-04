@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("joe_hawes_travel_time_calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c14597af38038802dec76edb4c57aaac07e702")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a4bcb55d9822a85fe409b9d65cafd6bb77c87bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("joe_hawes_travel_time_calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("joe_hawes_travel_time_calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
