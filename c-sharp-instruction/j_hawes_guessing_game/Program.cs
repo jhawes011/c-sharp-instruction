@@ -96,7 +96,20 @@
 				while (!success)
 				{
 					Console.Write(prompt);
-					if (int.TryParse(Console.ReadLine(), out nbr) && nbr >= 1 && nbr <= 100)
+					// was user entry a whole number?
+					try { nbr = int.Parse(Console.ReadLine()); } //if parse throws an exception, it will be caught
+																 //catch { Print("Invalid number. Please enter a whole number.");
+																 //continue;
+																 //}
+					catch (Exception e)
+					{
+						Console.Error.WriteLine("e.Message: " + e.Message);
+						Console.Error.WriteLine("e.Message: " + e.ToString);
+					}
+						Print("Invalid number. Please enter a whole number.");
+						continue;
+					
+						if (int.TryParse(Console.ReadLine(), out nbr) && nbr >= 1 && nbr <= 100)
 					{
 						success = true;
 					}
