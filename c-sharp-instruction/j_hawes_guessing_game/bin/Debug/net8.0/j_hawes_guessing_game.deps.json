@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "j_hawes_guessing_game/1.0.0": {
+        "runtime": {
+          "j_hawes_guessing_game.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "j_hawes_guessing_game/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

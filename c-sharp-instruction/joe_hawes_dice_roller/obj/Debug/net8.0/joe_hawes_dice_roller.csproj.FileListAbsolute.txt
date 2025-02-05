@@ -1,0 +1,15 @@
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\bin\Debug\net8.0\joe_hawes_dice_roller.exe
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\bin\Debug\net8.0\joe_hawes_dice_roller.deps.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\bin\Debug\net8.0\joe_hawes_dice_roller.runtimeconfig.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\bin\Debug\net8.0\joe_hawes_dice_roller.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\bin\Debug\net8.0\joe_hawes_dice_roller.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.AssemblyInfoInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.AssemblyInfo.cs
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.csproj.CoreCompileInputs.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.sourcelink.json
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\refint\joe_hawes_dice_roller.dll
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.pdb
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\joe_hawes_dice_roller.genruntimeconfig.cache
+C:\repos\c-sharp-repos\c-sharp-instruction\joe_hawes_dice_roller\obj\Debug\net8.0\ref\joe_hawes_dice_roller.dll
