@@ -16,7 +16,7 @@
 
 
 				PrintL("15%");
-				PrintL($"Tip Amount:   ${Math.Round(tipAmount, 2):0.00}");
+				PrintL($"Tip Amount:   ${Math.Round(tipAmount * 0.15, 2):0.00}");
 				PrintL($"Total Amount: ${Math.Round(totalBill + (totalBill * 0.15), 2):0.00}");
 				Console.WriteLine();
 
