@@ -25,12 +25,15 @@
 					atBatResults[i] = Convert.ToInt32(Console.ReadLine());
 				}
 				Console.WriteLine();
+
 				double battingAverage = atBatResults.Count(result => result > 0) / (double)atBats;
 				Console.Write("Batting Average: " + battingAverage.ToString("F3"));
 				Console.WriteLine();
+
 				double sluggingPercent = atBatResults.Sum() / (double)atBats;
 				Console.WriteLine("Slugging Percent: " + sluggingPercent.ToString("F3"));
 				Console.WriteLine();
+
 				Console.WriteLine("Do you want to enter another player? (y/n): ");
 				choice = Console.ReadLine();
 				}
