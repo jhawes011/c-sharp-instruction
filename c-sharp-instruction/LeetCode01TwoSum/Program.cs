@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("TwoSum LeetCode Challenge--------------------\n------------------------------------------------------");
 			// example 1-------------------------------------------
 			int[] nums = { 2, 7, 11, 15 };
 			int target = 9;
