@@ -1,30 +1,48 @@
 ﻿namespace LeetCode01TwoSum
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("TwoSum LeetCode Challenge--------------------\n------------------------------------------------------");
-			// example 1-------------------------------------------
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+		
+			Console.WriteLine("TwoSum LeetCode Challenge--------------------\n------------------------------------------------------");
+			
+			
+			Console.Write("Enter Target: ");
+			string input = Console.ReadLine();
+			int target = int.Parse(input);
+			Console.WriteLine();
+			Console.WriteLine();
+			
 			int[] nums = { 2, 7, 11, 15 };
-			int target = 9;
+			int[] result = TwoSum(nums, target);
 
-			int[] indices = TwoSum(nums, target);
-			Console.WriteLine("indices: ");
-			foreach (int i in indices)
-			{ Console.WriteLine($"indices: {indices[i]}"); }
+			
+			if (result.Length == 2)
+			{
+					Console.WriteLine($"Indices: [{result[0]}, {result[1]}]");
+			}
+			else
+			{
+				Console.WriteLine("No solution found.");
+			}
 
-
-
-        }
-
-
-
-
+		}
 		static int[] TwoSum(int[] nums, int target)
 		{
-			int[] indices = new int[2];
-			return indices;
+			for (int i = 0; i < nums.Length; i++)
+			{
+				for (int j = i + 1; j < nums.Length; j++)
+				{
+					if (nums[j] == target - nums[i])
+					{
+						return new int[] { i, j };
+
+					}
+				}			
+			} 
+			return new int[0] { };	
 		}
-    }
+		
+	}
 }
