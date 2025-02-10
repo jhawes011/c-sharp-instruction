@@ -50,26 +50,25 @@
 						break;
 				}
 				
-
 			}
 
-
-			static void GrabItem(List<string> inventory, int maxItems)
+		}
+		static void GrabItem(List<string> inventory, int maxItems)
 			{
 				if (inventory.Count >= maxItems)
 				{
 					Console.WriteLine("Your satchel is too heavy! Drop something young mage! ");
 					return;
 				}
-
-				Console.Write("Item Name: ");
-				string newItem = Console.ReadLine();
-				inventory.Add(newItem);
-				Console.WriteLine($"{newItem} was added.");
-				PrintL("");
+				else
+				{
+					Console.Write("Item Name: ");
+					string newItem = Console.ReadLine();
+					inventory.Add(newItem);
+					Console.WriteLine($"{newItem} was added.");
+					PrintL("");
+				}
 			}
-
-		}
 
 		static void ShowInventory(List<string> inventory)
 		{
@@ -115,7 +114,7 @@
 				Console.Write("Enter the new name for the item: ");
 				string newItem = Console.ReadLine();
 				inventory[index - 1] = newItem;
-				Console.WriteLine("Item updated.");
+				Console.WriteLine("Item name updated.");
 				PrintL("");
 			}
 			else
