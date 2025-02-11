@@ -38,5 +38,9 @@ namespace ConsoleLibrary
 		{
 			Console.WriteLine(msg);
 		}
+		public static void ReadL() 
+		{
+			Console.ReadLine(); 
+		}
 	}
 }

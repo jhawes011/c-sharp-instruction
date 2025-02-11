@@ -16,5 +16,6 @@ namespace Ch16ExDiceRoller
 			Random R = new Random();
 			this.Value = R.Next(1, 7);
 		}
+		
 	}
 }
