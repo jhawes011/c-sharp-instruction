@@ -19,6 +19,10 @@ namespace ch12ClassesDemo
 		public Movie(int Id, string Title, int Year, string Rating, string Director)
 		{
 			this.Id = Id;
+			this.Title = Title;
+			this.Year = Year;
+			this.Rating = Rating;
+			this.Director = Director;
 		}
 		public string ToString()
 		{
