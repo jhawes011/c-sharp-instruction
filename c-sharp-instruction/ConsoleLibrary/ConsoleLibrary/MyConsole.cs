@@ -23,6 +23,53 @@ namespace ConsoleLibrary
 				}
 
 			}
+
+			return result;
+
+		}
+		public static string PromptReqString(string prompt, string str1, string str2)
+		{
+			string result = "";
+			bool isValid = false;
+			while (!isValid)
+			{
+				result = PromptString(prompt);
+
+				if (result.Trim() != "")
+				{
+					if (result == str1 || result == str1)
+					{
+						isValid = true;
+					}
+					else
+					{
+						PrintL("Error - string must be either " + str1 + " or " + str2);
+					}
+				}
+				else
+				{
+					PrintL("Error - entry is required.");
+				}
+			}
+			return result;
+		}
+		public static int PromptInt(string message, int min, int max)
+		{
+			int result = 0;
+			bool isValid = false;
+			//validation: 1) whole #, 2) range
+			while (!isValid)
+			{
+				result = PromptInt(message);
+				if (result >= min && result <= max)
+				{
+					isValid |= true;
+				}
+				else
+				{
+					PrintL("Error - int must be within range " + min + "-" + max);
+				}
+			}
 			return result;
 		}
 		public static string PromptString(string prompt)

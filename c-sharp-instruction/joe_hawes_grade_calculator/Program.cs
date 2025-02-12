@@ -1,4 +1,5 @@
-﻿namespace joe_hawes_grade_calculator
+﻿using ConsoleLibrary;
+namespace joe_hawes_grade_calculator
 {
 	internal class Program
 	{
@@ -6,18 +7,17 @@
 		{
 			Console.WriteLine("-------Welcome to the Grade Converter------");
 
-			do
-			{
-				Grades grade = new Grades();
+			string choice = "y";
+			while (choice == "y")
+			{ //** change request(CR): Need MyConsole.PromptInt(string prompt, int min, int max)
+				int numericGrade = MyConsole.PromptInt("Enter numerical grade: ", 0, 100);
+				Grade grade = new Grade(numericGrade);
+				MyConsole.PrintL("LetterGrade: " + grade.GetLetter());
+				// ** CR: PromptString - Validates empty string, y, n
 
-				Console.WriteLine("Enter your numerical grade: ");
-				
-				Console.WriteLine();
-				Console.WriteLine(grade.ToString());
-				Console.WriteLine();
-				Console.Write("Convert another grade? (y/n): ");
+
+				choice = MyConsole.PromptReqString("Continue? (y/n)", "y", "n").ToLower();
 			}
-			while (Console.ReadLine().Trim().ToLower() == "y");
 			Console.WriteLine();
 			Console.WriteLine("Goodbye----------------------------------");
 		}
