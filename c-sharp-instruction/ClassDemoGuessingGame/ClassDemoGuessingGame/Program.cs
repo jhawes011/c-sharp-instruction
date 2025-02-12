@@ -22,14 +22,17 @@ namespace ClassDemoGuessingGame
 				int count = 0;
 				int guess = 0;
 				MyConsole.PrintL("I'm thinking of a number from " + MIN_VAL + " to " + MAX_VAL + ".\nTry to guess it.\n");
-				//Print("** DEBUG: theNumber = " + theNumber);
+				
 				// play game until guess == theNumber
+				Game game = new Game();
 				while (guess != theNumber)
 				{
 					guess = MyConsole.PromptInt("Enter number: ");
 					count++;
 					int diff = guess - theNumber;
-					Game.DisplayGuessMessage(count, diff);
+					game.Diff = diff;
+					game.Count = count;
+					game.DisplayGuessMessage();
 				}
 				// prompt choice
 				MyConsole.PrintL("");
@@ -39,9 +42,5 @@ namespace ClassDemoGuessingGame
 
 			MyConsole.PrintL("Bye - come back again soon!");
 		}
-
-		
-		
-
-	}       
+	}
 }

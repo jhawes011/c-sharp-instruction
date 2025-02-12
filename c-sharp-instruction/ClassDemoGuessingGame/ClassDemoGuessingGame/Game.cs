@@ -4,38 +4,40 @@ namespace ClassDemoGuessingGame
 {
 	public class Game
 	{
-		 public void DisplayGuessMessage(int count, int diff)
+		public int Count { get; set; }
+		public int Diff { get; set; }
+		 public void DisplayGuessMessage()
 		{
-			if (diff == 0)
+			if (Diff == 0)
 			{
-				DisplayWinnerMessage(count);
+				DisplayWinnerMessage();
 			}
-			else if (diff < -10)
+			else if (Diff < -10)
 			{
 				MyConsole.PrintL("Way too low! Guess again.");
 			}
-			else if (diff < 0)
+			else if (Diff < 0)
 			{
 				MyConsole.PrintL("Too low! Guess again.");
 			}
-			else if (diff > 10)
+			else if (Diff > 10)
 			{
 				MyConsole.PrintL("Way too high! Guess again.");
 			}
-			else if (diff > 0)
+			else if (Diff > 0)
 			{
 				MyConsole.PrintL("Too high! Guess again.");
 			}
 		}
 
-		private void DisplayWinnerMessage(int count)
+		private void DisplayWinnerMessage()
 		{
-			MyConsole.PrintL("You got it in " + count + " tries.");
-			if (count <= 3)
+			MyConsole.PrintL("You got it in " + Count + " tries.");
+			if (Count <= 3)
 			{
 				MyConsole.PrintL("Great work! You are a mathematical wizard.");
 			}
-			else if (count <= 7)
+			else if (Count <= 7)
 			{
 				MyConsole.PrintL("Not too bad! You've got some potential.");
 			}
