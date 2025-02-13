@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Intrinsics.X86;
 using ConsoleLibrary;
 
-namespace joe_hawes_person_manager
+namespace joe_hawes_person_manager.Model
 {
 	public class Customer : Person
 	{
@@ -9,9 +9,9 @@ namespace joe_hawes_person_manager
 		public Customer() { }
 		public Customer(string firstName, string lastName, string customerNumber)
 			: base(firstName, lastName)
-			{
-				this.CustomerNumber = CustomerNumber;
-			}
+		{
+			CustomerNumber = CustomerNumber;
+		}
 
 
 
@@ -24,7 +24,7 @@ namespace joe_hawes_person_manager
 		{
 
 			Customer customer = new Customer();
-
+			
 			customer.FirstName = MyConsole.PromptString("First Name: ");
 			customer.LastName = MyConsole.PromptString("Last Name: ");
 			customer.CustomerNumber = MyConsole.PromptString("Customer Number: ");

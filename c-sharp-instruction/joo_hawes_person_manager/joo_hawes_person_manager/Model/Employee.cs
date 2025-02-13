@@ -1,6 +1,6 @@
 ﻿using ConsoleLibrary;
 
-namespace joe_hawes_person_manager
+namespace joe_hawes_person_manager.Model
 {
 	public class Employee : Person
 	{
@@ -20,7 +20,7 @@ namespace joe_hawes_person_manager
 		public static void CreateEmployee()
 		{
 
-			
+
 			Employee employee = new Employee();
 			employee.FirstName = MyConsole.PromptString("First Name: ");
 			employee.LastName = MyConsole.PromptString("Last Name: ");
@@ -31,7 +31,7 @@ namespace joe_hawes_person_manager
 
 		private static string MaskSsn(string ssn)
 		{
-			
+
 			return new string('*', ssn.Length - 4) + ssn.Substring(ssn.Length - 4);
 		}
 	}

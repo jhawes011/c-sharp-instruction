@@ -1,6 +1,7 @@
 ﻿
 using ConsoleLibrary;
-namespace joe_hawes_person_manager
+using joe_hawes_person_manager.Model;
+namespace joe_hawes_person_manager.UI
 {
 	public class Program
 	{
@@ -22,12 +23,12 @@ namespace joe_hawes_person_manager
 					Employee.CreateEmployee();
 				}
 				choice = MyConsole.PromptString("Enter another person? (y/n): \n");
-				
+
 			}
 			MyConsole.PrintL("Goodbyee==================================================================");
 		}
 
-		
+
 
 	}
 }

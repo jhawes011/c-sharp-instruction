@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Intrinsics.X86;
 using ConsoleLibrary;
 
-namespace joe_hawes_person_manager
+namespace joe_hawes_person_manager.Model
 {
 	public class Person
 	{
