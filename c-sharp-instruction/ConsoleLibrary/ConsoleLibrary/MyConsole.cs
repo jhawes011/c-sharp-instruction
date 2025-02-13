@@ -37,7 +37,7 @@ namespace ConsoleLibrary
 
 				if (result.Trim() != "")
 				{
-					if (result == str1 || result == str1)
+					if (result == str1 || result == str2)
 					{
 						isValid = true;
 					}
