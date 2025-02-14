@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("j_hawes_guessing_game")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98acc3463f7e84855ad0225af538a539aec17fd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1179c64fe401fe29eba084f5a43aef26e445c8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("j_hawes_guessing_game")]
 [assembly: System.Reflection.AssemblyTitleAttribute("j_hawes_guessing_game")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
