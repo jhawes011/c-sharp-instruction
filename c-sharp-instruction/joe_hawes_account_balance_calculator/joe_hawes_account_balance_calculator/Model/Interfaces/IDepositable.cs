@@ -2,8 +2,8 @@
 
 namespace joe_hawes_account_balance_calculator.Model.Interfaces
 {
-	public interface Balanceable
+	public interface IDepositable
 	{
-		double Balance { get; set; }
+		void Deposit(decimal amount);
 	}
 }

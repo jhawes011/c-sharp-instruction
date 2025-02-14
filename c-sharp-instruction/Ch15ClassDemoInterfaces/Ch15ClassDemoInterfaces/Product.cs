@@ -24,7 +24,7 @@ namespace Ch15ClassDemoInterfaces
 
 		public int CompareTo(Product? other) // ? says if null, jusst ignore it
 		{
-			return this.Price.CompareTo(other?.Price);
+			return this.Price.CompareTo(other?.Price);  //could also compare Code or Description
 		}
 	}
 }

@@ -3,20 +3,20 @@ using joe_hawes_account_balance_calculator.Model.Interfaces;
 
 namespace joe_hawes_account_balance_calculator.Model
 {
-	public abstract class Account : Depositable, Withdrawable, Balanceable
+	public abstract class Account : IDepositable, IWithdrawable, IBalanceable
 	{
-		public double Balance { get; set; }
+		public decimal Balance { get; set; }
 		
-		public Account(double initialBalance)
+		public Account(decimal initialBalance)
 		{
 			Balance = initialBalance;
 		}
-		public void Deposit(double amount)
+		public void Deposit(decimal amount)
 		{
 			if (amount > 0)
 			Balance += amount;
 		}
-		public void Withdraw(double amount)
+		public void Withdraw(decimal amount)
 		{
 			if (amount > 0 && amount <= Balance)
 				Balance -= amount;

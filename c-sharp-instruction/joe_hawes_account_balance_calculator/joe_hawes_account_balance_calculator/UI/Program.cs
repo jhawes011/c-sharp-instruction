@@ -8,8 +8,8 @@ namespace joe_hawes_account_balance_calculator.UI
 		{
 
 			MyConsole.PrintL("Welcome to the Account Balance Calculator");
-			CheckingAccount checking = new CheckingAccount(1000.00, 1.00);
-			SavingsAccount savings = new SavingsAccount(1000.00, 0.012);
+			CheckingAccount checking = new CheckingAccount(1000.00m, 1.00m);
+			SavingsAccount savings = new SavingsAccount(1000.00m, 0.012m);
 
 			MyConsole.PrintL($"Starting Balances \nChecking: {checking.Balance:0.00} \nSavings: {savings.Balance:0.00}\n");
 			MyConsole.PrintL("Enter the transactions for the month \n");
@@ -20,7 +20,7 @@ namespace joe_hawes_account_balance_calculator.UI
 				string transactionType = (MyConsole.PromptReqString("Withdraw or Deposit? (w/d): ", "w", "d"));
 				string accountType = (MyConsole.PromptReqString("Checking or Savings? (c/s): ", "c", "s"));
 				
-				if (!double.TryParse(MyConsole.PromptString("Amount? : "), out double amount))
+				if (!decimal.TryParse(MyConsole.PromptString("Amount? : "), out decimal amount))
 				{
 					MyConsole.PrintL("Invalid amount entered.");
 					return;
