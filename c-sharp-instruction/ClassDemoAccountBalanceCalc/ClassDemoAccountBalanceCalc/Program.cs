@@ -1,10 +1,13 @@
-﻿namespace ClassDemoAccountBalanceCalc
+﻿using ConsoleLibrary;
+namespace ClassDemoAccountBalanceCalc
+
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            MyConsole.PrintL("===================Welcome to the account balance calculator=============");
+
         }
     }
 }

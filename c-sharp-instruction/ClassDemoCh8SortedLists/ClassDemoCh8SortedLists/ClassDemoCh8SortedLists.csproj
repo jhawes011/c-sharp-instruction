@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Reference Include="ConsoleLibrary">
-      <HintPath>..\..\ConsoleLibrary\ConsoleLibrary\bin\Release\net8.0\ConsoleLibrary.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
