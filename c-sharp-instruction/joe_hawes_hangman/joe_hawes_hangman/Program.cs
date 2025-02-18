@@ -1,4 +1,5 @@
 ﻿using ConsoleLibrary;
+using System.Collections.Generic;
 using joe_hawes_hangman.Model;
 
 namespace joe_hawes_hangman
@@ -25,15 +26,19 @@ namespace joe_hawes_hangman
 				
 				
 
-				while (incorrectGuesses < 6 && (wordGuessed != true))
+				while (incorrectGuesses <= 6 && (wordGuessed != true))
 				{
 					
+					MyConsole.PrintL(GetHangmanImage(incorrectGuesses));
 					MyConsole.PrintL("Test Hint: " + randomWord);
 					MyConsole.PrintL(hiddenWord);
 					List<string> lettersGuessed = new List<string>();
-					lettersGuessed.Add(MyConsole.PromptString("Enter your letter guess: \n"));
+					MyConsole.PrintL("Enter your letter guess: \n");
+					string userGuess = Console.ReadLine().ToLower();
+					lettersGuessed.Add(userGuess);
+					
 					MyConsole.PrintL(hangman.DisplayGuessedLetters(lettersGuessed));
-					GetHangmanImage(incorrectGuesses);
+					incorrectGuesses++;
 				}
 
 				
