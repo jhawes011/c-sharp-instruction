@@ -116,11 +116,11 @@ namespace ConsoleLibrary
 			Print(prompt);
 			return Console.ReadLine();
 		}
-		public static void Print(string msg)
+		public static void Print(string msg = "")
 		{
 			Console.Write(msg);
 		}
-		public static void PrintL(string msg)
+		public static void PrintL(string msg = "")
 		{
 			Console.WriteLine(msg);
 		}
