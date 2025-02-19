@@ -20,7 +20,7 @@ namespace joe_hawes_hangman
 				bool wordGuessed = false;
 				string randomWord = GetRandomWord();
 				string hiddenWord = GetHiddenWord(randomWord);
-				string display = "";
+				
 
 
 				
@@ -39,7 +39,7 @@ namespace joe_hawes_hangman
 					
 					MyConsole.PrintL(hangman.DisplayGuessedLetters(lettersGuessed));
 
-					// if userGuess is not in hiddenWord {incorrectGuesses++}
+					//   VVVVVVVV    if userGuess is not in hiddenWord {incorrectGuesses++}
 					incorrectGuesses++;
 				}
 
