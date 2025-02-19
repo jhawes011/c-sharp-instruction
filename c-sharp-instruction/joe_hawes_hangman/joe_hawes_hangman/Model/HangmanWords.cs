@@ -34,7 +34,7 @@ namespace joe_hawes_hangman.Model
 
 		public static string GetHiddenWord(string word)
 		{
-			return string.Join(" ", new string('_', word.Length).ToCharArray());
+			return new string('_', word.Length).Replace("_", "_ ");
 		}
 
 		public static string GetRandomWord()

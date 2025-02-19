@@ -21,8 +21,8 @@ namespace joe_hawes_hangman
 				string randomWord = GetRandomWord();
 				string hiddenWord = GetHiddenWord(randomWord);
 				string display = "";
-				
-				
+
+
 				
 				
 
@@ -38,6 +38,8 @@ namespace joe_hawes_hangman
 					lettersGuessed.Add(userGuess);
 					
 					MyConsole.PrintL(hangman.DisplayGuessedLetters(lettersGuessed));
+
+					// if userGuess is not in hiddenWord {incorrectGuesses++}
 					incorrectGuesses++;
 				}
 
@@ -66,7 +68,7 @@ namespace joe_hawes_hangman
 										|  /|\  A
 										|  / \   D
 										|______   
-										""";
+										"""; 
 				case 5:
 					return
 						"""
