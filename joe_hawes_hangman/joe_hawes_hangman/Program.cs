@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using joe_hawes_hangman.Model;
 
-namespace joe_hawes_hangman
+namespace joe_hawes_hangman 
 {
 	internal class Program : HangmanWords
 	{
